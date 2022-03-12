@@ -26,7 +26,7 @@ In addition, this container supports some basic customization right out of the b
 To utilize one or more of these environment variables the run command would be something along the lines of `docker run --network host --env ServerName="Very Cool Server" ashleyprimo/dedcon_docker:latest`
 
 #### Custom Configuations
-It is also possible, as aluded too utilise your own custom config - this is simply done by mounting your configuration file to `/dedcon/config` on the server, for example `docker run --network host --mount type=bind,source="$(pwd)"/myConfig,target=/dedcon/config`
+It is also possible, as aluded too utilise your own custom config - this is simply done by mounting your configuration file to `/dedcon/config` on the server, for example `docker run --network host --mount type=bind,source="$(pwd)"/myConfig,target=/dedcon/config ashleyprimo/dedcon_docker:latest`
 
 This example (on a `Linux`) machine will take a file named `myConfig` in your current working directory and mount it on the server in the correct location. **NOTE** the above mentioned environment variables will not be valid.
 
