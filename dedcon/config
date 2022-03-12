@@ -1,0 +1,10 @@
+ServerName <ServerName>
+ServerKey <ServerKey>
+
+Say <Welcome>
+
+AdvertisePlayers <AdvertisePlayers>
+
+MaxTeams <MaxTeams>
+
+RandomTerritories <RandomTerritories>
